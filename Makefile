@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall -fPIC -I/usr/lib/jvm/java-7-openjdk-amd64/include
+CFLAGS=-c -Wall -fPIC -I/usr/jdk1.8.0_172/include -I/usr/jdk1.8.0_172/include/linux
 LDFLAGS=-fPIC -shared
 
 SOURCES_DIR=src/main/c++
